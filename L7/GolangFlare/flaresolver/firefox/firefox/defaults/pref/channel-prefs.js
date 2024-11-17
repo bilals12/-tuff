@@ -1,9 +1,3 @@
-/* This Source Code Form is subject to the terms of the Mozilla Public
- * License, v. 2.0. If a copy of the MPL was not distributed with this
- * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
-//
-// This pref is in its own file for complex reasons. See the comment in
-// browser/app/Makefile.in, bug 756325, and bug 1431342 for details. Do not add
-// other prefs to this file.
-
-pref("app.update.channel", "nightly");
+version https://git-lfs.github.com/spec/v1
+oid sha256:d071ae72cdb535bce2444dc2a5acf05dad0ffeabddc6f752cb096f6d0b403651
+size 429
