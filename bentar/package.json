@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "discord-webhook-node": "^1.1.8",
+    "gradient-string": "^2.0.2",
+    "randomstring": "^1.3.0",
+    "request": "^2.88.2",
+    "user-agents": "^1.1.12",
+    "zombie": "^6.1.4"
+  }
+}

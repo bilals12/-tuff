@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "cli-color": "^2.0.2",
+    "events": "^3.3.0",
+    "i": "^0.3.7",
+    "npm": "^8.10.0",
+    "puppeteer-extra": "^3.2.3",
+    "puppeteer-extra-plugin-recaptcha": "^3.5.0",
+    "puppeteer-extra-plugin-stealth": "^2.9.0"
+  }
+}

@@ -1,0 +1,9 @@
+node linux-engine.js https://example.com proxy.txt 300 30 GET 64
+
+target:= https://website.com
+proxy:= proxy.txt 
+time:= Boot time min 60
+sessions:= min(5)
+method:= GET e.t.c
+request:= min(16), max(64) (if you don't want to get http ddos set 24 or 32)
+

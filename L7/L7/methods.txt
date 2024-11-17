@@ -1,0 +1,63 @@
+Type: Layer 4
+
+Network Layer:
+[BASIC] IGMP (Internet Group Management Protocol)
+[BASIC] ESP (Encapsulating Security Protocol)
+[BASIC] GRE (Generic Routing Encapsulation) 
+
+Amplification:
+[PREMIUM] NTP (Network Time Protocol)
+[PREMIUM] WSD (Web Services Devices)
+[PREMIUM] DNS (Domain Name System)
+[BASIC] DVR (Distance Vector Routing)
+[BASIC] LDAP (Lightweight Directory Access Protocol)
+[BASIC] SSDP (Simple Service Discovery Protocol)
+[BASIC] SNMP (Simple Network Management Protocol)
+
+Transmission Control Protocol:
+[ENTERPRICE] TCP-RAND (Use Randomized: TCP Data, MSS, TTL, Custom Flag)
+[ENTERPRICE] TCP-BypassV2 (Use ACK Packets: TSval, NOP, Valid)
+[PREMIUM] TCP-PUSH (Sends All Data, Used For Unprotected Servers)
+[PREMIUM] TCP-BypassV1 (Unique Method More Stable For Hosting)
+[PREMIUM] KILL-ALL (TCP Protocol With Amplification List)
+[PREMIUM] TCP-SYNACK (Use SYN-ACK Handshake Flood)
+[BASIC] TCP-IGMP (Internet Group Management Protocol Flood)
+[BASIC] TCP-SYN (Sending Packets With TCP Flag)
+[BASIC] CF-SYN (Method Use Cloudflare IPs)
+[BASIC] TCP-ACK (Default ACK Attack Flood)
+
+User Datagram Protocol:
+[ENTERPRICE] UDP-BypassV2 (Sending Slow UDP Packets For Optimized Attack)
+[PREMIUM] UDP-GAME (Sending UDP Fast Packets For Game)
+[PREMIUM] UDP-BypassV1 (Sending UDP Packets With Random Len)
+[BASIC] UDP-VSE (A2S_PLAYER UDP Flood Attack)
+[BASIC] UDP-HIT (Basic UDP Flood With High PPS)
+
+Game Methods: 
+[PREMIUM] AMONGUS-KILL (Custom Payload For This Game) 
+[PREMIUM] ROBLOX-KILL (Custom Payload For This Game) 
+[PREMIUM] UDP-SOURCE (For Valve Game Customized Len) 
+[PREMIUM] GARRYSMOD-LAG (Custom Payload For This Game) 
+[PREMIUM] FIVEM-BypassV1 (Custom Packets For Bypass Most Servers) 
+[ENTERPRICE] FIVEM-BypassV2 (Custom Payload For This Game) 
+
+Special Methods: 
+[ENTERPRICE] TCP-KILL (Use Bypass Legit Traffic For Attack)
+[ENTERPRICE] TCP-GAME (New TCP Game Method For OVH Servers) 
+[ENTERPRICE] TCP-RAW (Use Raw Payload Power Flood) 
+[ENTERPRICE] TCP-FAKE (Sending Special Fake Packets)
+[ENTERPRICE] OVH-AMP (Use Amplification List Optimized For OVH)
+[ENTERPRICE] UDP-STORM (Multi Protocol UDP Flood Using Special IPs) 
+[ENTERPRICE] OVH-SYN (Use SYN Handshake With Legit And Valid Traffic)
+
+Type: Layer 7
+
+[ENTERPRISE] BROWSER-EMULATION (HTTPS/2.0)
+[ENTERPRISE] BROWSER-KILL (HTTPS/1.3)
+[ENTERPRISE] HTTPS-TLS (HTTPS/2.0)
+[PREMIUM] HTTPS-STRONG (HTTPS/2.0)
+[PREMIUM] HTTPS-CONNECT (HTTPS/1.3)
+[PREMIUM] HTTPS-RAW (HTTPS/2.0)
+[BASIC] HTTPS-FORCE (HTTPS/1.3)
+[BASIC] HTTPS-SPAM (HTTPS/1.3)
+[BASIC] HTTPS-UAM (HTTPS/1.1)
